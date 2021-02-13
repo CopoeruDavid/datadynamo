@@ -1,0 +1,159 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5dd54b85-621e-4615-94ca-9d2a3ae41b9e": {
+        "id": "5dd54b85-621e-4615-94ca-9d2a3ae41b9e",
+        "parent": null,
+        "name": "dataDynamo.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dataDynamo.py",
+        "cursor": {
+          "lineNumber": 41,
+          "column": 41
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "dataDynamo"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK28a367ee74ba4f5ca553389eb5de3fab",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1613143753336,
+        "testCases": {
+          "47226ed5-6a91-4120-bf65-37fa7f2511aa": {
+            "id": "47226ed5-6a91-4120-bf65-37fa7f2511aa",
+            "name": "test1",
+            "functionId": "5dd54b85-621e-4615-94ca-9d2a3ae41b9e",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "0f2dbca9-d95f-4850-8ad6-bd9197e700e7": {
+        "id": "0f2dbca9-d95f-4850-8ad6-bd9197e700e7",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "5dd54b85-621e-4615-94ca-9d2a3ae41b9e"
+    ],
+    "currentFileId": "5dd54b85-621e-4615-94ca-9d2a3ae41b9e",
+    "resources": {
+      "alexaSK28a367ee74ba4f5ca553389eb5de3fab": {
+        "name": "alexaSK28a367ee74ba4f5ca553389eb5de3fab",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.28a367ee-74ba-4f5c-a553-389eb5de3fab",
+          "applicationID": ""
+        }
+      },
+      "ddbYears": {
+        "name": "ddbYears",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "table": {
+            "arn": "",
+            "name": "Years",
+            "partitionKey": "id",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          }
+        }
+      },
+      "ddbAnimals": {
+        "name": "ddbAnimals",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-2:747135818459:table/Animals",
+            "name": "Animals",
+            "partitionKey": "id",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "",
+            "payPerRequest": true,
+            "mode": 1,
+            "secondaryIndexes": {}
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "language": "python",
+          "version": "1.13.0",
+          "dev": false,
+          "notRemovable": false
+        },
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.16.43",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.0",
+    "projectName": "dataDynamo",
+    "projectDescription": "this is a test",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1613179039322
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "datadynamo",
+      "url": "https://github.com/CopoeruDavid/datadynamo"
+    }
+  }
+}
