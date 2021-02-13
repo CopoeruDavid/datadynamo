@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "dataDynamo.py",
         "cursor": {
-          "lineNumber": 41,
-          "column": 41
+          "lineNumber": 2,
+          "column": 31
         },
         "config": {
           "runtime": "python3.8",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1613143753336,
+        "lastUpdated": 1613179220463,
         "testCases": {
           "47226ed5-6a91-4120-bf65-37fa7f2511aa": {
             "id": "47226ed5-6a91-4120-bf65-37fa7f2511aa",
@@ -147,7 +147,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1613179039322
+    "lastSave": 1613238542217
   },
   "VCS_STATE": {
     "provider": "GitHub",

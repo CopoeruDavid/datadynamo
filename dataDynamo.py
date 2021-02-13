@@ -1,7 +1,5 @@
 import boto3
 ddb = boto3.client("dynamodb")
-import boto3
-ddb = boto3.client("dynamodb")
 import ask_sdk_core
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.dispatch_components import AbstractRequestHandler, AbstractExceptionHandler
